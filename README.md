@@ -1,3 +1,9 @@
+# Althea
+
+Althea is a forked repository of Lucia, developed by Manifold Lab. It alters the userID to be a serial number instead of a string in the Drizzle Adapter for MySql Databases. This is to ensure that the userID is unique and can be used as a primary key in the database.
+
+Further work will be completed for Manifold Lab's use case, including the addition of a new adapter for the Drizzle Adapter for Postgres and SQLite Databases.
+
 # Lucia
 
 Lucia is an auth library written in TypeScript that abstracts away the complexity of handling sessions. It works alongside your database to provide an API that's easy to use, understand, and extend.
