@@ -2,8 +2,9 @@ import { Adapter, DatabaseSession, DatabaseUser } from "lucia";
 import { generateRandomString, alphabet } from "oslo/crypto";
 import assert from "node:assert/strict";
 
+// Use "1" to signfiy change to userID being number
 export const databaseUser: DatabaseUser = {
-	id: generateRandomString(15, alphabet("0-9", "a-z")),
+	id: 1,
 	attributes: {
 		username: generateRandomString(15, alphabet("0-9", "a-z"))
 	}

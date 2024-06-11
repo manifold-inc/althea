@@ -22,7 +22,7 @@ export type UserId = Register extends {
 	UserId: infer _UserId;
 }
 	? _UserId
-	: string;
+	: number;
 
 export type RegisteredLucia = Register extends {
 	Lucia: infer _Lucia;
