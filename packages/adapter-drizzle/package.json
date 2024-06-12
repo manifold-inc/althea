@@ -1,5 +1,5 @@
 {
-	"name": "@manifold-inc/althea/adapter-drizzle-serial",
+	"name": "@manifold-labs/adapter-drizzle-serial",
 	"version": "1.0.0",
 	"description": "Drizzle ORM adapter with serial userID for Lucia",
 	"main": "dist/index.js",
@@ -27,7 +27,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/manifold-inc/althea",
+		"url": "git+https://github.com/manifold-inc/althea.git",
 		"directory": "packages/adapter-drizzle"
 	},
 	"author": "Manifold Labs",
